@@ -12,13 +12,20 @@ const SocialLink = ({ href, icon: Icon }) => (
   </a>
 );
 
-const SocialLinks = () => (
+const SocialLinks = ({social}) => (
+  // <div className="flex justify-center space-x-6">
+  //   <SocialLink href="https://github.com/TAHMID37" icon={Github} />
+  //   <SocialLink href="https://www.linkedin.com/in/trahmanrifat/" icon={Linkedin} />
+  //   <SocialLink href="https://app.daily.dev/tahmidrahman" icon={BookOpen} />
+  //   <SocialLink href="https://codeforces.com/profile/TAM" icon={Code} />
+  //   <SocialLink href="https://www.instagram.com/i.m.tahmid/" icon={Instagram} />
+  // </div>
   <div className="flex justify-center space-x-6">
-    <SocialLink href="https://github.com/TAHMID37" icon={Github} />
-    <SocialLink href="https://www.linkedin.com/in/trahmanrifat/" icon={Linkedin} />
-    <SocialLink href="https://app.daily.dev/tahmidrahman" icon={BookOpen} />
-    <SocialLink href="https://codeforces.com/profile/TAM" icon={Code} />
-    <SocialLink href="https://www.instagram.com/i.m.tahmid/" icon={Instagram} />
+    <SocialLink href={social.github} icon={Github} />
+    <SocialLink href={social.linkedin} icon={Linkedin} />
+    <SocialLink href={social.dailyDev} icon={BookOpen} />
+    <SocialLink href={social.codeforces} icon={Code} />
+    <SocialLink href={social.instagram} icon={Instagram} />
   </div>
 );
 
