@@ -11,7 +11,7 @@ export const portfolioConfig = {
     email: "190041237tr@gmail.com",
     location: "Dhaka, Bangladesh",
     phone: "Available upon request",
-    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3",
+    profileImage: "./profile image.jpg",
     aboutImage: "https://images.unsplash.com/photo-1525373698358-041e3a460346?auto=format&fit=crop&q=80&w=2664&ixlib=rb-4.0.3",
   },
 
