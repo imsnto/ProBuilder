@@ -9,6 +9,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ThemeSwitcher from './components/ThemeSwitcher';
+import Education from './components/Education';
+import CompetitiveProgramming from './components/CompetitiveProgramming';
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
           <Hero />
           <About />
           <Skills />
+          <CompetitiveProgramming />
           <TechStack />
           <Projects />
+          <Education />
           <Contact />
         </main>
         <Footer />
