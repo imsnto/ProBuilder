@@ -28,14 +28,14 @@ const projectsData = [
   },
   {
     "id": 3,
-    "name": "Railway Ticket Reservation System",
-    "description": "A web-based railway ticket reservation system built using Django that allows users to search for trains, book tickets, manage bookings, and handle coach-wise seat allocations.",
-    "language": ["Python", "Django"],
+    "name": "Job Portal",
+    "description": "A Django-based RESTful API for managing job postings and applications. This project allows employers to create and manage job posts, job seekers to apply for jobs, and provides a Swagger UI for API documentation.",
+    "language": ["Python", "Django", "DRF"],
     "stargazers_count": 0,
     "forks_count": 0,
     "size": 0,
-    "html_url": "https://github.com/imsnto/Railway-Ticket-Reservation-System",
-    "updated_at": "2023-04-3T21:15:00Z"
+    "html_url": "https://github.com/imsnto/job_portal",
+    "updated_at": "2025-05-07T18:30:00Z"
   },
   {
     "id": 4,
